@@ -26,3 +26,18 @@
     background-color: var(--Ligth-Cyan);
     padding: 1.5rem;
 }
+
+#p{
+    color: white;
+    font-size: 2rem ;
+    font-weight: 700;
+    line-height: 2.375rem;
+}
+#s{
+    color: white;
+    opacity: 0,5;
+}
+
+.esquerda div{
+    display: flexbox;
+}
