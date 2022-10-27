@@ -35,9 +35,45 @@
 }
 #s{
     color: white;
-    opacity: 0,5;
+    opacity: 0.5;
 }
 
 .esquerda div{
-    display: flexbox;
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 0.25rem;
+}
+
+.esquerda > p{
+    color:white;
+    line-height: 1.625rem;
+    margin-bottom: 1.625rem;
+    
+}
+
+.esquerda button{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    border:none;
+    background-color: var(--Bright-Yellow) ;
+    border-radius: 0.313rem ;
+    box-shadow: 0px 10px 10px rgba(0, 0,0, 0.0973011);
+}
+
+.direita{
+    background-color: var(--Ligth-Cyan);
+    padding: 1.5rem;
+    border-radius: 0 0 0.0313rem 0.313rem;
+}
+.direita p{
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    color: white;
+    opacity: 0.75;
 }

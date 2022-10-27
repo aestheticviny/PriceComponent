@@ -8,9 +8,9 @@
 }
 
 main{
-padding-top:4.5rem ;
-padding-left: 2rem ;
-padding-right: 2rem;
+    padding-top:4.5rem ;
+    padding-left: 2rem ;
+    padding-right: 2rem;
 }
 
 h1{
@@ -20,7 +20,7 @@ h1{
     margin-bottom: 1.5rem;
 }
 h2{
-    font-style: 1.125rem;
+    font-size: 1.125rem;
     line-height: 1.375rem;
     color: white;
     margin-bottom: 1.125rem;
